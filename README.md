@@ -8,3 +8,5 @@ mini-batches of input data to scale better.
 
 It stores all the reviews in sqlite database so that model
 can be improved later.
+
+The project is live at : [http://akgeni.pythonanywhere.com/]
