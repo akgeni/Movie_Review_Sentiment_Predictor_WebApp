@@ -1,6 +1,6 @@
 # Movie_Review_Sentiment_Predictor_WebApp
 
-A web application in Flask backed by ML models trained over acllmdb dataset predicts whether       (Dec-2016)
+A web application in Flask backed by ML models trained over acllmdb dataset predicts whether
 sentiment in the review is positive or negative with % probability. 
 
 SGDClassifier is trained using 
