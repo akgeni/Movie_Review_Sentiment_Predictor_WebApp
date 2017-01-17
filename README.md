@@ -1,3 +1,5 @@
+![Language](https://img.shields.io/badge/language-Python-orange.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) 
 # Movie_Review_Sentiment_Predictor_WebApp
 
 A web application in Flask backed by ML models trained over acllmdb dataset predicts whether
