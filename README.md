@@ -2,11 +2,13 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) 
 # Movie_Review_Sentiment_Predictor_WebApp
 
-A web application in Flask backed by ML models trained over acllmdb dataset predicts whether
-sentiment in the review is positive or negative with % probability. 
+A web application in Flask backed by LSTM, trained over acllmdb dataset predicts
+whether sentiment in the review is positive or negative. 
 
-SGDClassifier is trained using 
-mini-batches of input data to scale better. 
+LSTM of 128 hidden layers with recurrent dropout and sigmoid activation is trained to capture long term contexts.
+It stores all the user reviews in sqlite database so that model can be improved later.
+
+• Accuracy – 99.09% on test set.
 
 It stores all the reviews in sqlite database so that model
 can be improved later.
